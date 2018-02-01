@@ -35,16 +35,16 @@
       <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Spire.Doc">
-      <HintPath>..\eClassroomWebApi\bin\Spire.Doc.dll</HintPath>
+      <HintPath>..\Spire_DLL\Spire.Doc.dll</HintPath>
     </Reference>
     <Reference Include="Spire.License">
-      <HintPath>..\eClassroomWebApi\bin\Spire.License.dll</HintPath>
+      <HintPath>..\Spire_DLL\Spire.License.dll</HintPath>
     </Reference>
     <Reference Include="Spire.Pdf">
-      <HintPath>..\eClassroomWebApi\bin\Spire.Pdf.dll</HintPath>
+      <HintPath>..\Spire_DLL\Spire.Pdf.dll</HintPath>
     </Reference>
     <Reference Include="Spire.Presentation">
-      <HintPath>..\eClassroomWebApi\bin\Spire.Presentation.dll</HintPath>
+      <HintPath>..\Spire_DLL\Spire.Presentation.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />

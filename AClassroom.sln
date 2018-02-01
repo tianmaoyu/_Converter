@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eClassroomWebApi", "eClassroomWebApi\eClassroomWebApi.csproj", "{FB9BEECE-EDBB-47AD-B342-CAF4BE097C1F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.AClassroom.ClientTest", "WebApiClient\6.AClassroom.ClientTest.csproj", "{4CCF3D30-319B-4B99-B6FA-24741F849E8F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.AClassroom.DocConverter", "WebApplication1\5.AClassroom.DocConverter.csproj", "{BAE12D3D-200B-4BA8-9CCD-9862F8CDFD0D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.AClassroom.Core", "AClassroom.Core\1.AClassroom.Core.csproj", "{9C626DCA-5BB4-49DB-80B0-F0A14AAEDC60}"
 EndProject
@@ -17,24 +13,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.AClassroom.Repository", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.AClassroom.Server", "AClassroom.Server\4.AClassroom.Server.csproj", "{BC9E7EAA-32CF-468C-A24A-CE6BFB4F9EDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.AClassroom.DocCoverter", "5.AClassroom.DocCoverter\5.AClassroom.DocCoverter.csproj", "{1EBEB9DC-6AFB-49D6-924E-0AFBB84F73C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FB9BEECE-EDBB-47AD-B342-CAF4BE097C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB9BEECE-EDBB-47AD-B342-CAF4BE097C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB9BEECE-EDBB-47AD-B342-CAF4BE097C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB9BEECE-EDBB-47AD-B342-CAF4BE097C1F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4CCF3D30-319B-4B99-B6FA-24741F849E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4CCF3D30-319B-4B99-B6FA-24741F849E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CCF3D30-319B-4B99-B6FA-24741F849E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CCF3D30-319B-4B99-B6FA-24741F849E8F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BAE12D3D-200B-4BA8-9CCD-9862F8CDFD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BAE12D3D-200B-4BA8-9CCD-9862F8CDFD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BAE12D3D-200B-4BA8-9CCD-9862F8CDFD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BAE12D3D-200B-4BA8-9CCD-9862F8CDFD0D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9C626DCA-5BB4-49DB-80B0-F0A14AAEDC60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9C626DCA-5BB4-49DB-80B0-F0A14AAEDC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C626DCA-5BB4-49DB-80B0-F0A14AAEDC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +41,10 @@ Global
 		{BC9E7EAA-32CF-468C-A24A-CE6BFB4F9EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC9E7EAA-32CF-468C-A24A-CE6BFB4F9EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC9E7EAA-32CF-468C-A24A-CE6BFB4F9EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBEB9DC-6AFB-49D6-924E-0AFBB84F73C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBEB9DC-6AFB-49D6-924E-0AFBB84F73C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBEB9DC-6AFB-49D6-924E-0AFBB84F73C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBEB9DC-6AFB-49D6-924E-0AFBB84F73C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
