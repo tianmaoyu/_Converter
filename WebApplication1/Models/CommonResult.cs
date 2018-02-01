@@ -30,6 +30,10 @@ namespace AClassroom.DocConverter.Models
             {
                 return EnumHelper.GetEnumDescription(this.ResultEnum);
             }
+            set
+            {
+                //Message = value;
+            }
         }
     }
 }

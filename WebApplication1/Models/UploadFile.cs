@@ -18,7 +18,7 @@ namespace AClassroom.DocConverter.Models
         /// <summary>
         /// 要保存的目录
         /// </summary>
-        private static readonly string _uploadFolder = ConfigConstant.UploadFolder;
+        private static readonly string _uploadFolder = ConfigConstant.UploadFolderRoot;
 
         /// <summary>
         /// 需要转换的文档后缀的类型
@@ -29,6 +29,11 @@ namespace AClassroom.DocConverter.Models
         /// 临时保存文件带path
         /// </summary>
         public string TempFileName { private set; get; }
+
+        /// <summary>
+        /// 相对路径
+        /// </summary>
+        public string RelativePath { private set; get; }
 
         /// <summary>
         /// 是否需要转化
@@ -102,6 +107,7 @@ namespace AClassroom.DocConverter.Models
             var onwerStr = EnumHelper.GetEnumDescription(onwerType);
             var clientStr= EnumHelper.GetEnumDescription(clientType);
             var todayStr = DateTime.Now.ToString("yyyy-MM-dd", System.Globalization.DateTimeFormatInfo.InvariantInfo);
+            this.RelativePath= Path.Combine(ConfigConstant.RelativePathRoot, onwerStr, clientStr, todayStr, fileMd5); 
             var path = Path.Combine(UploadFile._uploadFolder, onwerStr, clientStr, todayStr, fileMd5);
             if (!Directory.Exists(path))
                 Directory.CreateDirectory(path);

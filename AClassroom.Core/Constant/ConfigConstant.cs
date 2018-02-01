@@ -32,12 +32,17 @@ namespace AClassroom.Core
         /// <summary>
         /// 文件上传
         /// </summary>
-        public static readonly string UploadFolder = HostingEnvironment.MapPath("~/Upload/" + UploadFolder);
+        public static readonly string UploadFolderRoot = HostingEnvironment.MapPath("~/Upload/");
+
+        /// <summary>
+        /// 相对路径
+        /// </summary>
+        public static readonly string RelativePathRoot = "/Upload/";
 
         /// <summary>
         /// 临时保存目录
         /// </summary>
-        public static readonly string UploadFolderTemp = HostingEnvironment.MapPath("~/UploadTemp/" + UploadFolder);
+        public static readonly string UploadFolderTemp = HostingEnvironment.MapPath("~/UploadTemp/");
 
         /// <summary>
         /// 文件所属项目

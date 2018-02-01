@@ -20,7 +20,7 @@ namespace AClassroom.Core
         /// <param name="fileName">转化的文件名称</param>
         /// <param name="pageInfos">转化后的图片信息</param>
         /// <param name="pageCount">文档页数</param>
-        public static void Convert(string saveDirectory, string fileName, ref string pageInfos, ref int pageCount)
+        public static bool Convert(string saveDirectory, string fileName, ref string pageInfos, ref int pageCount)
         {
             var extName = Path.GetExtension(fileName);
             var fileTitle = Path.GetFileNameWithoutExtension(fileName);
@@ -71,6 +71,7 @@ namespace AClassroom.Core
                     }
                     break;
             }
+            return true;
         }
     }
 }

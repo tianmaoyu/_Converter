@@ -35,7 +35,7 @@ namespace AClassroom.Entity
         /// <summary>
         /// 文件转换为 png 后的 页数
         /// </summary>
-        public string PageCount { get; set; }
+        public int PageCount { get; set; }
 
         /// <summary>
         /// 转换为 Image 的相关 的长宽等信息
@@ -65,7 +65,7 @@ namespace AClassroom.Entity
         /// <summary>
         /// 文档上传来源名称（上传客户端类型名称） 
         /// </summary>
-        public int UploadClientTypeName { get; set; }
+        public string UploadClientTypeName { get; set; }
         
         /// <summary>
         /// 文档的所属项目
