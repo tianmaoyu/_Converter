@@ -12,16 +12,16 @@ namespace AClassroom.Entity.Enum
     /// </summary>
     public enum DocmentOnwerTypeEnum
     {
-        [Description("Acadsoc生产环境")]
-        Acadsoc = 1,
-        [Description("Acadsoc测试环境")]
-        Acadsoc_Debugger = 2,
+        [Description("test生产环境")]
+        test = 1,
+        [Description("test测试环境")]
+        test_Debugger = 2,
 
 
-        [Description("AcadsocB2B生产环境")]
-        AcadsocB2B = 5,
-        [Description("AcadsocB2B测试环境")]
-        AcadsocB2B_Debugger = 6,
+        [Description("testB2B生产环境")]
+        testB2B = 5,
+        [Description("testB2B测试环境")]
+        testB2B_Debugger = 6,
 
 
         [Description("AliceABC生产环境")]
