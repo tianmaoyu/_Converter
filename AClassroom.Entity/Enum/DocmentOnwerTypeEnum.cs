@@ -24,15 +24,15 @@ namespace AClassroom.Entity.Enum
         testB2B_Debugger = 6,
 
 
-        [Description("AliceABC生产环境")]
-        AliceABC = 10,
-        [Description("AliceABC试环境")]
-        AliceABC_Debugger = 11,
+        [Description("ssss生产环境")]
+        ssss = 10,
+        [Description("ssss试环境")]
+        ssss_Debugger = 11,
 
-        [Description("AliceABCB2B生产环境")]
-        AliceABCB2B = 15,
-        [Description("AliceABCB2B试环境")]
-        AliceABCB2B_Debugger = 16,
+        [Description("ssssB2B生产环境")]
+        ssssB2B = 15,
+        [Description("ssssB2B试环境")]
+        ssssB2B_Debugger = 16,
 
 
         [Description("Box生产环境")]
